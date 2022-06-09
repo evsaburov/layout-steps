@@ -1,0 +1,21 @@
+.cover-space {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.article-cover {
+  height: 94vh;
+}
+
+div * {
+  border: red solid 1px;
+}
+
+.article-cover {
+  display: flex;
+}
+
+.article-cover__menu {}
+
+.article-cover__body {}

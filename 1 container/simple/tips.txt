@@ -1,0 +1,29 @@
+Настройка ширины контейнера
+
+.wrapper {
+    width: 1170px;
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 1170px;
+}
+
+Выравнивание контейнера по центру страницы
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+Настройка левого и правого внутренних отступов
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+Использование процентных значений при настройке контейнеров

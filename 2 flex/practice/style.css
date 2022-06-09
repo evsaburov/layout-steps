@@ -1,0 +1,47 @@
+body {
+  /* width: 1170px; */
+  margin: 0 auto;
+  padding: 50px 32px;
+  border: red solid 1px;
+  box-sizing: border-box;
+  font: 18px/1.7 'Open Sans', sans-serif;
+  /* font: 900 60px "Roboto",sans-serif; */
+}
+
+div {
+  border: red solid 1px;
+}
+
+.flex-item {
+  text-align: center;
+}
+
+.mount {
+  margin: 5px;
+  padding: 0 5px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+
+  /* gap: 40px; */
+  /* height: 100vh; */
+}
+
+.flex-item {
+  /* width: 70px; */
+  /* height: 90px; */
+}
+
+.item1 {
+  align-self: stretch;
+}
+
+@media screen and (max-width: 450px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}

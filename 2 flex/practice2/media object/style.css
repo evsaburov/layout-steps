@@ -1,0 +1,20 @@
+.flex-container {
+  padding: 1em;
+  background: blueviolet;
+}
+
+p {
+  colof: #fff;
+  font-style: 16px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.content {
+  flex: 1;
+}
